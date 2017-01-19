@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMNotificationView_Example' do
+  pod 'AMNotificationView', :path => '../'
+
+  target 'AMNotificationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
