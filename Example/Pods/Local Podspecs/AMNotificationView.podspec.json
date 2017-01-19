@@ -1,0 +1,22 @@
+{
+  "name": "AMNotificationView",
+  "version": "0.1.0",
+  "summary": "A short description of AMNotificationView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AMNotificationView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Antonino Francesco Musolino": "ninomusolino@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AMNotificationView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMNotificationView/Classes/**/*"
+}

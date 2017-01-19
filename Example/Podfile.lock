@@ -1,0 +1,16 @@
+PODS:
+  - AMNotificationView (0.1.0)
+
+DEPENDENCIES:
+  - AMNotificationView (from `../`)
+
+EXTERNAL SOURCES:
+  AMNotificationView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMNotificationView: ede1924b90a6f4afd8048f3ac1273d2ec35cb879
+
+PODFILE CHECKSUM: 6045e84f041e9f6348c280f57d2a9101edf1ce06
+
+COCOAPODS: 1.2.0.beta.3
