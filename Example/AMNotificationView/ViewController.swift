@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AMNotificationView
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+	
+	@IBAction func showNotification(_ sender: UIButton)
+	{
+		AMNotificationManager.sharedInstance.showNotification(withText: "CIAO", completion: nil)
+		
+	}
 
 }
 

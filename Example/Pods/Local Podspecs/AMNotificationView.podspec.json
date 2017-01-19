@@ -1,9 +1,9 @@
 {
   "name": "AMNotificationView",
   "version": "0.1.0",
-  "summary": "A short description of AMNotificationView.",
+  "summary": "Simple Framework for In-App Xib based Notification",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AMNotificationView",
+  "homepage": "https://github.com/Posix88/AMNotificationView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -15,8 +15,13 @@
     "git": "https://github.com/<GITHUB_USERNAME>/AMNotificationView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/Ninomusolino",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AMNotificationView/Classes/**/*"
+  "source_files": "AMNotificationView/Classes/**/*",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation"
+  ]
 }

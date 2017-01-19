@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AMNotificationView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AMNotificationView.'
+  s.summary          = 'Simple Framework for In-App Xib based Notification'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AMNotificationView'
+  s.homepage         = 'https://github.com/Posix88/AMNotificationView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Antonino Francesco Musolino' => 'ninomusolino@gmail.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AMNotificationView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/Ninomusolino'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'AMNotificationView/Classes/**/*'
-  
+  s.frameworks = 'AudioToolbox', 'AVFoundation'
+
   # s.resource_bundles = {
   #   'AMNotificationView' => ['AMNotificationView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
