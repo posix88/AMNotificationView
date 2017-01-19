@@ -22,7 +22,7 @@ pod "AMNotificationView"
 
 ## Author
 
-Made with love from Antonino Francesco Musolino, ninomusolino@gmail.com
+Made with love by Antonino Francesco Musolino, ninomusolino@gmail.com
 
 ## License
 
